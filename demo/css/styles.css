@@ -1,0 +1,61 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #fff;
+	font-family: Trebuchet MS, Arial, Helvetica, sans-serif;
+	font-size: 100%;
+	color: #333;
+}
+
+#shoppingcart {
+	position: absolute;
+	top: 50px;
+	left: 50px;
+	height: 100px;
+	width: 500px;
+	background: #eee;
+	border: 1px solid #444;
+}
+
+#shoppingcart p {
+	margin: 0 1em 1em;
+}
+
+h1 {
+	font-size: 140%;
+	margin: 0.5em 1em;
+}
+
+#booklist, #contents {
+	position: absolute;
+	top: 175px;
+	left: 50px;
+	width: 500px;
+	background: #ddd;
+	border: 1px solid #333;
+}
+
+#booklist ul {
+	list-style-type: none;
+}
+
+#booklist ul li {
+	margin: 0 1em 1em;
+}
+
+#contents table {
+	font-size: 90%;
+	border-collapse: collapse;
+}
+
+#contents table td {
+	border: 1px solid #999;
+	width: 20%;
+}
+
+#contents p, #contents button {
+	margin: 1em;
+}
